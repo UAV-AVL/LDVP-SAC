@@ -1,0 +1,17 @@
+numpy
+scipy
+opencv-python
+tqdm
+PyYAML
+h5py
+Pillow
+matplotlib
+
+# PyTorch versions used in the authors' tested environment.
+# For a different CUDA version, install the matching PyTorch wheels first
+# from the official PyTorch instructions, then install the remaining packages.
+torch==2.5.1
+torchvision==0.20.1
+
+# The following third-party source trees are also intentionally NOT vendored:
+#   LightGlue_main/  <- official LightGlue repository

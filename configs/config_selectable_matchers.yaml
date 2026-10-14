@@ -1,0 +1,32 @@
+RETRIEVAL_METHODS:
+- CAMP
+
+MATCHING_METHODS:
+#  - Roma
+# - UFM
+#   - SP_LG
+#   - SP_LG_GIM
+   - SP_LG_MINIMA
+#  - ALIKED_LG
+#   - DISK_LG
+
+
+PNP_METHODS:
+- P3P
+
+RETRIEVAL_COVER: 50
+RETRIEVAL_TOPN: 5
+RETRIEVAL_IMG: /1_Retrieval.jpg
+RETRIEVAL_IMG_NUM: 5
+RETRIEVAL_FEATURE_NORM: true
+BATCH_SIZE: 128
+
+# UFM_MODEL_NAME:
+UFM_MODEL_NAME: /ff/yhr/anyVisLoc/avl_demo/Matching_Models/UFM/weights/UFM_base #Refine #infinity1096/UFM-Refine #infinity1096/UFM-Base
+UFM_COVIS_THRESHOLD: 0.5
+UFM_LOCAL_FILES_ONLY: true
+
+# UFM sampling
+UFM_SAMPLE_MODE: grid #top-k
+UFM_GRID_ROWS: 8
+UFM_GRID_COLS: 8
